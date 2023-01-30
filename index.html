@@ -17,22 +17,51 @@
 
 .rectangle1{
   width: 100%;
-  height: 100px;
+  height: 160px;
   background: #FF6600;
   text-align: center;
-  font-size:25px
+  font-size:25px;
+  margin: 0;
 
 
 }
 .rectangle2{
   width: 100%;
-  height: 60px;
+  height: 130px;
   background: #CCCCCC;
   text-align: center;
-  font-size:21px
-
+  font-size:21px;
+  margin-top:-28px;
 
 }
+
+.rectangle3{
+  width:120px;
+  height: 55px;
+  background: #FFDDCA;
+  text-align: center;
+  margin-top:48px;
+  margin-left:390px;
+}
+
+.rectangle4{
+  width:120px;
+  height: 55px;
+  background: #A0D6B4;
+  text-align: center;
+  margin-top:45px;
+  margin-left:390px;
+}
+
+.rectangle5{
+  width:120px;
+  height: 55px;
+  background: #FAF884;
+  text-align: center;
+  margin-top:45px;
+  margin-left:390px;
+}
+
 .center{
   align-items: center;
   justify-align:center;
@@ -40,18 +69,19 @@
 }
 .button {
   border: none;
-  color: white;
-  padding: 35px 150px;
-  text-align: center;
+  color: #FF6600;
+  text-align: left;
   text-decoration: none;
-  display: inline-block;
+  display: block;
   font-size: 25px;
-  margin: 4px 2px;
+  margin-top:-28px;
   cursor: pointer;
+  width: 700px;
+  height: 55px;
 }
-.button1 {background-color: #FFA500;} /* Orange */
-.button2 {background-color: #4CAF50;} /* Green */
-.button3 {background-color: #FFDF00;} /*Yellow*/
+.button1 {background-color: #F5F5F5;} /* Orange */
+.button2 {background-color: #F5F5F5;} /* Green */
+.button3 {background-color: #F5F5F5;} /*Yellow*/
 body {
             text-align: center;
         }
@@ -71,18 +101,35 @@ body {
 </br>
 </br>
   <div class= "rectangle1">
-    <h1 class="center" style="color:white;">ITT - ELMC Hospital Model</h1>
+    <h1 class="center" style="color:white;"> </br> ITT - ELMC Hospital Model</h1>
+</div>
+<div class= "rectangle2">
+  <h1 class="center" style="color:black;"> </br>Neurodegenerative disease pathway</h1>
 </div>
 
-<div class= "rectangle2">
-  <h1 class="center" style="color:black;">Neurodegenerative disease pathway</h1>
-</div>
-</br>
-</br>
+  <div class= "rectangle3">
+    <a href="adone.html">
+    <img src="Picture2.png" alt="HTML5 Icon" style="width:60px;height:50px;margin-left:-25%">
+  </a>
 <a href="adone.html">
-<button class="button button1"><b>Alzheimer's Disease</b></button>
+<button class="button button1" style = "position:fixed; left:500px; top:500px;"><b>Alzheimer's Disease</b></button>
 </a>
-<button class="button button2"><b>PD</b></button>
-<button class="button button3"><b>MLS</b></button>
+</div>
+<div class= "rectangle4">
+  <a href="pdone.html">
+  <img src="Picture3.png" alt="HTML5 Icon" style="width:50px;height:50px;margin-left:-25%">
+</a>
+<a href="pdone.html">
+<button class="button button2" style = "position:fixed; left:500px; top:600px;"><b>Parkinson’s Disease</b></button>
+</a>
+</div>
+<div class= "rectangle5">
+  <a href="mlsone.html">
+  <img src="Picture4.png" alt="HTML5 Icon" style="width:70px;height:50px;margin-left:-20%">
+</a>
+<a href="mlsone.html">
+<button class="button button3" style = "position:fixed; left:500px; top:700px;"><b>Multiple Sclerosis</b></button>
+</a>
+</div>
 </body>
 </html>
